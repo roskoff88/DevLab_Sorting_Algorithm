@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+    <Property name="maximizable" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="true"/>
+    <Property name="title" type="java.lang.String" value="Result"/>
+    <Property name="toolTipText" type="java.lang.String" value=""/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabelResultText" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelInputText" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabelInputResult" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelResult" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jButtonPrevious" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Component id="jButtonExit" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabelInsertionSort" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabelInsertionResult" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabelSelectionSort" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelQuickSort" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="73" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabelQuickSortResult" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelSelectionSortResult" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelMergeResult" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabelMerge" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelInputText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelInputResult" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelResult" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelResultText" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="11" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelMerge" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelMergeResult" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelQuickSortResult" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelQuickSort" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButtonPrevious" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonExit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelSelectionSort" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelSelectionSortResult" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelInsertionResult" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelInsertionSort" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="31" pref="160" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabelResultText">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Result: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelResult">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabelResult"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMerge">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Merge Sort:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMergeResult">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="JLabelMerge"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelQuickSort">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quick Sort:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelQuickSortResult">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="JLabelQuickSort"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelSelectionSort">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Selection Sort:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelSelectionSortResult">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="JLabelSelectionSort"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelInsertionSort">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Insertion Sort:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelInsertionResult">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="JLabelInsertionSort"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonExit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Exit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonExitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonPrevious">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Previous"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonPreviousActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelInputText">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Input: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelInputResult">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabelInput"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sorting time results:"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
